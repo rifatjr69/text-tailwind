@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="m-0 p-0">
+  <script>
+tailwind.config={
+  theme: {
+    screens: {
+      'sm': '290px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '450px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '720px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+    }
+  }
+}
+  </script>
+ <header class="bg-gradient-to-r from-violet-200 to-pink-200 pb-3 flex justify-around">
+  <div class="logo mt-3 text-xl font-thin sm:text-sm md:text-[17px]">
+    Alexa Pro
+  </div>
+  <div class="flex mt-3">
+    <ul class="flex space-x-3 list-none">
+      <li class="font-thin cursor-pointer relative md:bg-slate-600 md:text-white rounded-full md:px-2 sm:text-[14px] sm:px-1  lg:text-[18px] sm:border bg-white sm:text-black sm:opacity-65">Home</li>
+      <li class="font-thin cursor-pointer relative md:bg-slate-600 md:text-white rounded-full md:px-2 sm:text-[14px] sm:px-1  lg:text-[18px] sm:border bg-white sm:text-black sm:opacity-65">About US</li>
+      <li class="font-thin cursor-pointer relative md:bg-slate-600 md:text-white rounded-full md:px-2 sm:text-[14px] sm:px-1  lg:text-[18px] sm:border bg-white sm:text-black sm:opacity-65">Programm</li>
+      <li class="font-thin cursor-pointer relative bg-slate-600 text-white rounded-full md:px-2 sm:text-[14px] sm:px-1 sm:hidden md:block lg:text-[18px]">Course</li>
+      <li class="font-thin cursor-pointer relative bg-slate-200 rounded-full md:px-2 sm:text-[12px] sm:hidden md:block lg:text-[18px]">Find us</li>
+    </ul>
+  </div>
+ </header>
+<!---body content starts form here--->
+<main class="bg-gradient-to-r from-violet-200 to-pink-200 h-[600px] grid justify-around items-center md:grid-cols-1 lg:grid-cols-2">
+  <div class="left-content text-center md:mt-[40px]">
+<h1 class="md:text-2xl md:font-semibold md:py-1">Grow Your Buisness <br>Using Ai</h1>
+<h2 class='inline-block md:w-[400px] lg:w-[500px] font-thin sm:w-[250px]'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ad eum fuga labore recusandae eius vitae, iste magni repellendus similique!</h2> <br>
+<div class="mt-5 space-x-2 sm:space-x-0">
+  <button class="bg-slate-600 px-2 py-1 rounded-full text-white hover:bg-white hover:text-black duration-300 sm:px-2 sm:font-thin sm:py-[2px]">Learn More</button>
+<button class="bg-slate-600 px-2 py-1 rounded-full text-white hover:bg-white hover:text-black duration-300 sm:px-2 sm:font-thin sm:py-[2px]">About US</button>
+</div>
+  </div>
+  <div class="right-content flex justify-center">
+ <img src="./f0082c6f-a902-47c1-b4c7-94baa68865a6.png" class="md:w-[400px] sm:w-[280px]">
+  </div>
+</main>
+<!-----content section starts from here------>
+<section class="mt-[60px]">
+  <h1 class="text-center my-10 font-semibold md:text-xl sm:text-[16px]">Our Services</h1>
+  <div class="content grid md:grid-cols-2 items-center lg:grid-cols-4 gap-y-[50px] sm:grid-cols-1 sm:gap-y-[15px]">
+    <div class="mx-auto text-center rounded-md pb-3 p-3">
+      <img src="./mobile-app-svgrepo-com.svg" class="w-[90px] mx-auto">
+      <h1 class="font-semibold">Ai automatic video generate</h1>
+      <h2 class="inline-block md:w-[250px] lg:w-[350px] py-1 md:text-[14px] lg:text-[16px] sm:font-thin sm:px-[15px] sm:text-[12px]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta cupiditate nesciunt doloribus reiciendis. Eligendi, necessitatibus!</h2>
+      <br>
+      <button class="bg-blue-500 text-white px-2 rounded-full mt-1 sm:px-1 md:px-2">Read More</button>
+    </div>
+    <div class="mx-auto text-center  rounded-md pb-3 p-3">
+      <img src="./api-interface-svgrepo-com.svg" class="w-[90px] mx-auto">
+      <h1 class="font-semibold">Ai automatic video generate</h1>
+      <h2 class="inline-block md:w-[250px] lg:w-[350px] py-1 md:text-[14px] lg:text-[16px] sm:font-thin sm:px-[15px] sm:text-[12px]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta cupiditate nesciunt doloribus reiciendis. Eligendi, necessitatibus!</h2>
+      <br>
+      <button class="bg-blue-500 text-white px-2 rounded-full mt-1 sm:px-1 md:px-2">Read More</button>
+    </div>
+    <div class="mx-auto text-center  rounded-md pb-3 p-3">
+      <img src="./mail-reception-svgrepo-com.svg" class="w-[90px] mx-auto">
+      <h1 class="font-semibold">Ai automatic video generate</h1>
+      <h2 class="inline-block md:w-[250px] lg:w-[350px] py-1 md:text-[14px] lg:text-[16px] sm:font-thin sm:px-[15px] sm:text-[12px]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta cupiditate nesciunt doloribus reiciendis. Eligendi, necessitatibus!</h2>
+      <br>
+      <button class="bg-blue-500 text-white px-2 rounded-full mt-1 sm:px-1 md:px-2">Read More</button>
+    </div>
+    <div class="mx-auto text-center  rounded-md pb-3 p-3">
+      <img src="./multiple-defenses-svgrepo-com.svg" class="w-[90px] mx-auto">
+      <h1 class="font-semibold">Ai automatic video generate</h1>
+      <h2 class="inline-block md:w-[250px] lg:w-[350px] py-1 md:text-[14px] lg:text-[16px] sm:font-thin sm:px-[15px] sm:text-[12px]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta cupiditate nesciunt doloribus reiciendis. Eligendi, necessitatibus!</h2>
+      <br>
+      <button class="bg-blue-500 text-white px-2 rounded-full mt-1 sm:px-1 md:px-2">Read More</button>
+    </div>
+  </div>
+</section>
+<!----content 2 section starts from here----->
+<section class="grid lg:grid-cols-2 items-center justify-evenly sm:grid-cols-1 mt-10 bg-gray-100 py-2">
+  <!---left content---->
+  <div  class="text-center">
+    <h1 class="lg:text-2xl md:text-xl sm:text-[16px] text-green-700 font-semibold">Our internation <br><span>Partners</span></h1>
+    <p class="md:w-[350px] lg:w-[400px] sm:w-[250px] py-1 pb-2 m-auto lg:text-[18px] sm:font-thin">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, atque?</p>
+  </div>
+  <!--right content-->
+  <div class="grid lg:grid-cols-2 mx-auto lg:gap-x-10 sm:gap-x-1 sm:grid-cols-2">
+    <div class="lg:flex sm:inline-block shadow-md py-2 px-2 rounded-md">
+      <img src="./country/bancontact-svgrepo-com.svg" class="w-[100px]">
+      <div class="inner-content text-center m-auto ml-4">
+        <h1 class="font-bold text-xl sm:text-[14px]">19,500,60</h1>
+        <p class="sm:text-sm">Investors</p>
+      </div>
+    </div>
+    <div class="lg:flex sm:inline-block shadow-md py-2 px-2 rounded-md">
+      <img src="./country/apple-pay-svgrepo-com.svg" class="w-[100px]">
+      <div class="inner-content text-center m-auto ml-4">
+        <h1 class="font-bold text-xl sm:text-[14px]">19,500,60</h1>
+        <p class="sm:text-sm">Investors</p>
+      </div>
+    </div>
+    <div class="lg:flex sm:inline-block shadow-md py-2 px-2 rounded-md">
+      <img src="./country/bancontact-payconiq-svgrepo-com.svg" class="w-[100px]">
+      <div class="inner-content text-center m-auto ml-4">
+        <h1 class="font-bold text-xl sm:text-[14px]">19,500,60</h1>
+        <p class="sm:text-sm">Investors</p>
+      </div>
+    </div>
+    <div class="lg:flex sm:inline-block shadow-md py-2 px-2 rounded-md">
+      <img src="./country/amazon-pay-svgrepo-com.svg" class="w-[100px]">
+      <div class="inner-content text-center m-auto ml-4">
+        <h1 class="font-bold text-xl sm:text-[14px]">19,500,60</h1>
+        <p class="sm:text-sm">Investors</p>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
